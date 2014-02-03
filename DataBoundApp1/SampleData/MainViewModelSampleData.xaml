@@ -1,0 +1,14 @@
+﻿<vm:DetailsViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:DataBoundApp1.ViewModels"
+    xmlns:models="clr-namespace:DataBoundApp1.Models"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:DetailsViewModel.Categories>
+        <models:Category ID="0" Name="Category One"/>
+        <models:Category ID="1" Name="Category Two"/>
+      
+    </vm:DetailsViewModel.Categories>
+
+</vm:DetailsViewModel>
